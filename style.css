@@ -1,0 +1,101 @@
+body{
+    background-color: #DFD3C3;
+}
+/* HEADER */
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Fondo2.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  
+}
+
+#codo_a_codo{
+    height: 60px;
+    width: 120px;
+    object-fit: cover;
+}
+#banner div:nth-child(2){
+    font-size: small;
+    margin-top: 20px;
+
+}
+
+h6 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1a538d;
+    font-style: italic;
+}
+
+div:nth-child(3){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #244c74;
+    font-style: italic;
+    font-size: medium;
+    
+}
+
+.perfil{
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 568px){
+    header{
+        height: 200px;  
+    }
+
+    #codo_a_codo{
+        height: 40px;
+        width: 80px;
+    }
+    #banner div:nth-child(2){
+        font-size: x-small;
+        margin-top: 12px;
+    
+    }
+    #redes_Sociales{
+        width: auto;
+    }
+}
+@media screen and (max-width: 950px){
+    header{
+        height: 250px;  
+    }
+
+    #codo_a_codo{
+        height: 40px;
+        width: 80px;
+    }
+    #banner div:nth-child(2){
+        font-size: x-small;
+        margin-top: 12px;
+    
+    }
+    #redes_Sociales{
+        width: auto;
+    }
+}
+
+.bi-facebook{
+    color: #3b5998
+}
+.bi-linkedin{
+    color: #55acee;
+}
+.bi-discord{
+    color: #094d82;
+}
+.bi-whatsapp{
+    color: #3CCF4E
+}
+.bi-box-arrow-in-right{
+    color: #4b75cf;
+}
+
+header div:nth-child(2){
+    color: white;
+}
+
+
+
